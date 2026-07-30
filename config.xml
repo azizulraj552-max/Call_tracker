@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.shikkhaghor.callannouncer" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.shikkhaghor.callannouncer" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>Bangla Call Announcer</name>
-    <description>কল বা মেসেজ আসলে বাংলায় ঘোষণা করবে</description>
+    <description>কল বা মেসেজ আসলে বাংলায় ঘোষণা করবে</description>
     <author email="admin@shikkhaghor.com" href="https://shikkhaghor.com">Azizul</author>
     
     <content src="index.html" />
@@ -11,7 +11,7 @@
     <preference name="BackupWebStorage" value="none" />
     <preference name="AppendUserAgent" value="Mozilla/5.0" />
 
-    <!-- ব্যাকগ্রাউন্ড ও কল/এসএমএস রিডিং এর জন্য প্রয়োজনীয় অ্যান্ড্রয়েড পারমিশন -->
+    <!-- ব্যাকগ্রাউন্ড ও কল/এসএমএস রিডিং এর জন্য প্রয়োজনীয় অ্যান্ড্রয়েড পারমিশন -->
     <config-file parent="/manifest" target="AndroidManifest.xml">
         <uses-permission android:name="android.permission.READ_PHONE_STATE" />
         <uses-permission android:name="android.permission.READ_CALL_LOG" />
