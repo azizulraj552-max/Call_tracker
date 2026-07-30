@@ -1,0 +1,19 @@
+{
+  "name": "bangla-call-announcer",
+  "displayName": "Bangla Call Announcer",
+  "version": "1.0.0",
+  "description": "কল ও মেসেজ অ্যানাউন্সার অ্যাপ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cordova-android": "^12.0.0"
+  },
+  "cordova": {
+    "plugins": {},
+    "platforms": [
+      "android"
+    ]
+  }
+}
